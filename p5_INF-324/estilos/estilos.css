@@ -1,0 +1,119 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    text-decoration: none;
+}
+body{
+    font-family: 'comicsans', cursive;
+    background-color: #a1b4bd;  
+    background: url(../imagenes/fondoPagina2.jpg);
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    background-size: cover; /* Ajustar el tamaño de la imagen de fondo */
+}
+
+
+
+.inline { 
+    display: inline-block; 
+    border: 1px solid red; 
+    margin:10px;
+    }
+
+header{
+    background-color: rgb(19, 146, 131);
+}
+
+footer{
+	background-color: #10e9e1;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #f7f7f7;
+	font-size: 0.8em;
+    display: block;
+    position: relative;
+}
+
+
+/*a,input[type=submit]{
+	background:#4ea1c7;
+	font-size: 1.3em;
+	text-decoration: none;
+	margin-right: 30px;
+	color: white;
+	border-radius: 10px;
+    padding: 5px;
+}*/
+
+header nav.menuCarreras a:hover{
+	background: #7bf8cc;
+	color: white;
+	box-shadow: 0px 0px 15px 5px  white;
+}
+
+div.cuadro figure{
+	float: left;
+    margin: -50px 0px 0px -30px;
+}
+
+ div.cuadro figure img{
+	border-radius: 50%;
+	width: 150px;
+	height: 140px;
+}
+
+ div.cuadro h2{
+	text-align: center;
+}
+
+ div.cuadro p{
+	padding: 5%;
+    text-align: justify;
+}
+ 
+div.cuadro div{
+	margin: 5%;
+    padding: 2%;
+	position: relative;
+	border-radius: 15px;
+}
+  
+
+.contenedorCuadros {
+	display: flex;
+	justify-content: space-between;
+}
+
+div.cuadro {
+	opacity: 0.7;
+  	border: 3px solid #000;
+    border-radius: 10%;
+    display: inline-block;
+    width: 26%;
+    margin: 5% 1% 5% 5%;
+    position: relative;
+    font-size: 0.6em;
+    background-color: #2fece9;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+div.cuadro:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+a, input[type=submit]{
+    background:#2df622;
+    font-size: 1.3em;
+    text-decoration: none;
+    margin-right: 30px;
+    color: rgb(11, 7, 7);
+    border-radius: 10px;
+    padding: 5px;
+    vertical-align: middle; /* Agregamos esta propiedad */
+}
+
+
+div.cuadro.enlace:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
